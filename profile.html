@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="this is an e-commerce project for mr rashed"
+    />
+    <title>E-commerce-project</title>
+    <!-- google font start here -->
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+QLD+Beginner&family=Peddana&display=swap" rel="stylesheet">
+    <!-- google font ends here -->
+    <!-- font awesome start -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome ends -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start here -->
+    <i class="fas fa-bars" id="menu-icon"></i>
+    <nav>
+      <!-- nav upper start here -->
+      <div id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+          <li class="nav__list">
+            <a href="main.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__list">
+            <a href="register.html" class="nav__link">Register</a>
+          </li>
+          <li class="nav__list">
+            <a href="login.html" class="nav__link">Login</a>
+          </li>
+          <li class="nav__list">
+            <a href="main.html" class="nav__link">Logout</a>
+          </li>
+          <li class="nav__list">
+            <a href="contact.html" class="nav__link">Contact</a>
+          </li>
+          <li class="nav__lists">
+            <a href="profile.html" class="nav__link">
+              <img
+                class="profile-icon"
+                src="images/rashed.jpg"
+                alt="profile icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- nav upper ends here -->
+      <ul class="nav-lower  flex-space-around">
+        <li class="nav__list">
+          <a href="main.html" class=" nav__brand nav__link">MR Rashed Express</a>
+        </li>
+        <li class="nav__list">
+          <a href="cart.html" class="nav__link">
+          <span><i class=" fa-solid fa-cart-shopping"></i></span>
+          Cart 2 products - $124.40
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar ends here -->
+    <main>
+        <h2 class="Profile__titlee">User Profile</h2>
+        <div class="flex-center main__pro">
+       <div class="profilee__body flex-center cardd">
+        <img class="profilee__img" src="images/rashed.jpg" alt="profile-photo">
+        <div class="Profile__descc">
+          <h3>MR RASHED</h3>
+          <p>mr.raidrox@gmail.com</p>
+          <p>I Love So Much Web-development</p>
+        </div>
+        <div class="profilee__icon">
+          <button class="btn">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+          <button class="btn">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+        </div>
+       </div>
+      </div>
+      </main>
+    <!-- footer start here -->
+<footer class="flex-space-around">
+    <div>
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="your email here"> 
+        <button class=" btn-subscribe">Subscribe</button>
+    </div>
+    <div>&copy;Copyright 2023 MR Rashed Express. All Right Reserved</div>
+</footer>
+
+    <!-- footer ends here -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
